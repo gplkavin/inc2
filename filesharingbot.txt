@@ -1,0 +1,1683 @@
+[23-Oct-22 03:57:02 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[23-Oct-22 03:57:56 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[23-Oct-22 03:57:56 - INFO] - bot - Bot stopped.
+[23-Oct-22 03:58:47 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[28-Oct-22 14:01:27 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[28-Oct-22 14:01:32 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[28-Oct-22 14:03:41 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 01:55:11 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 01:55:15 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 01:56:34 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:12 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:12 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:13 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:13 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:13 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:13 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:13 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:14 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:15 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:17 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:17 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:18 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:18 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:18 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:19 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:19 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:21 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[29-Oct-22 14:42:22 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:22 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:23 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[29-Oct-22 14:42:25 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:52:22 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:52:27 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:52:30 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:52:36 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:55:40 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:55:45 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:55:49 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[30-Oct-22 01:56:03 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[02-Nov-22 05:29:11 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[03-Nov-22 15:37:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:09 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[03-Nov-22 15:37:09 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[03-Nov-22 15:37:09 - WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.SendMedia")
+[03-Nov-22 15:37:10 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:13 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:13 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:37:13 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[03-Nov-22 15:40:09 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 01:55:15 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 01:55:15 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 01:55:15 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:14:54 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:15:10 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:15:10 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:15:44 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:15:44 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 02:15:44 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 04:41:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 04:41:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[04-Nov-22 04:41:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[05-Nov-22 04:43:43 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[05-Nov-22 04:43:44 - INFO] - bot - Bot stopped.
+[05-Nov-22 04:47:02 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/CodeXBotz
+[16-Nov-22 10:09:47 - ERROR] - pyrogram.dispatcher - Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\cbb.py", line 24, in cb_handler
+    await query.message.delete()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 3186, in delete
+    return await self._client.delete_messages(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\delete_messages.py", line 75, in delete_messages
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.forbidden_403.MessageDeleteForbidden: Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+[16-Nov-22 10:09:48 - ERROR] - pyrogram.dispatcher - Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\cbb.py", line 24, in cb_handler
+    await query.message.delete()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 3186, in delete
+    return await self._client.delete_messages(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\delete_messages.py", line 75, in delete_messages
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.forbidden_403.MessageDeleteForbidden: Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+[16-Nov-22 10:09:49 - ERROR] - pyrogram.dispatcher - Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\cbb.py", line 24, in cb_handler
+    await query.message.delete()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 3186, in delete
+    return await self._client.delete_messages(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\delete_messages.py", line 75, in delete_messages
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.forbidden_403.MessageDeleteForbidden: Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+[18-Nov-22 13:42:36 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[18-Nov-22 13:42:40 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:56:45 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:56:49 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:56:53 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:56:56 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:57:00 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:57:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:57:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 02:57:12 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:00:07 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:01:37 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:02:01 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:02:30 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:02:59 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:03:39 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:04:16 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:04:45 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:05:18 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 04:05:58 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:19:36 - ERROR] - pyrogram.dispatcher - Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\cbb.py", line 24, in cb_handler
+    await query.message.delete()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 3186, in delete
+    return await self._client.delete_messages(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\delete_messages.py", line 75, in delete_messages
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.forbidden_403.MessageDeleteForbidden: Telegram says: [403 MESSAGE_DELETE_FORBIDDEN] - You don't have rights to delete messages in this chat, most likely because you are not the author of them (caused by "messages.DeleteMessages")
+[20-Nov-22 10:28:14 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:30:36 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:30:43 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:30:54 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:31:02 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:31:09 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:31:18 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+[20-Nov-22 10:31:26 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Administrator\OneDrive\Desktop\Bots\inc series\plugins\channel_post.py", line 34, in channel_post
+    await post_message.edit_reply_markup(reply_markup)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\types\messages_and_media\message.py", line 2913, in edit_reply_markup
+    return await self._client.edit_message_reply_markup(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\messages\edit_message_reply_markup.py", line 61, in edit_message_reply_markup
+    r = await self.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\methods\advanced\invoke.py", line 77, in invoke
+    r = await self.session.invoke(
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 361, in invoke
+    return await self.send(query, timeout=timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\session\session.py", line 331, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.EditMessage")
